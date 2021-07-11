@@ -35,7 +35,7 @@ export default {
             rows.forEach(row => {
                     let leaf = map[row.id.value] = {
                         id: row.id.value,
-                        text: this.attrValue(row, 'title'),
+                        text: this.attrValue(row, 'name'),
                         is_active: this.attrValue(row, 'is_active'),
                         icon: this.isActiveIcon(true, true),
                         order: this.attrValue(row, 'order'),
