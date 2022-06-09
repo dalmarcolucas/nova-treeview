@@ -22,7 +22,6 @@ class TreeView extends Tool
     public function boot()
     {
         Nova::script('tree-view', __DIR__.'/../dist/js/tool.js');
-        Nova::style('tree-view', __DIR__.'/../dist/css/tool.css');
     }
 
     /**
